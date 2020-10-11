@@ -1,4 +1,4 @@
-        //define the result field
+       //define the result field
 var resultfield= $("#result");
 function insertNum(number){
     var existingNumbers = resultfield.val();
@@ -24,6 +24,5 @@ function deleteNum(){
         document.getElementById("result").style.color = "black";
     document.getElementById("result").style.border = "none";
     document.getElementById("result").style.fontFamily = "auto";
-
     }
 }

@@ -8,7 +8,7 @@ function clearResult(){
     resultfield.val('')
     document.getElementById("result").style.color = "black";
     document.getElementById("result").style.border = "none";
-
+    document.getElementById("result").style.fontFamily = "auto";
 }
 function calculate(){
   var result =  eval(resultfield.val())
@@ -21,5 +21,9 @@ function deleteNum(){
     var value = resultfield.val();
     if(value!= ''){
         resultfield.val(value.slice(0,-1));
+        document.getElementById("result").style.color = "black";
+    document.getElementById("result").style.border = "none";
+    document.getElementById("result").style.fontFamily = "auto";
+
     }
 }

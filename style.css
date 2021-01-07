@@ -9,6 +9,23 @@ body{
 a{
     text-decoration: none;
 }
+button{
+    border:0;
+    outline:none;
+   
+}
+button:active{
+    border:0;
+    outline:none;
+    
+}
+input:active{
+    outline:none;
+}
+input:focus{
+    outline:none;
+    border:0;
+}
 .container{
     border: 1px solid beige;
     margin: 100px auto;
